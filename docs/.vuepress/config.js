@@ -1,6 +1,5 @@
-const path = require('path');
 module.exports = {
-    title: 'Hello VuePress',
+    title: 'Hello',
     description: '我的个人网站',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
         ['link', { rel: 'icon', href: '/svgs/site-icon.svg' }], // 增加一个自定义的 favicon(网页标签的图标)
@@ -11,16 +10,30 @@ module.exports = {
     },
     themeConfig: {
         nav: [
-            {text: '主页', link: '/' },
             {   
-                text: 'page', 
+                text: '断墨寻径', 
                 items: [
-                    {text: 'pageindex', link: '/page/'},
-                    {text: 'pagetest', link: '/page/test.md'},
+                    {text: '概述', link: '/page/routing/'},
+                    {text: '第一篇', link: '/page/routing/r-01.md'},
+                    {text: '第二篇', link: '/page/routing/r-02.md'},
+                    {text: '第三篇', link: '/page/routing/r-03.md'},
                 ]
             },
         ],
-        sidebar: 'auto', 
-        sidebarDepth: 6,
+        sidebar: {
+            '/page/routing/': [
+                {
+                    title: '寻径',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '',
+                        'r-01',
+                        'r-02',
+                        'r-03',
+                    ]
+                }
+            ] 
+        },
     }
 }
