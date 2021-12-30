@@ -21,6 +21,8 @@ module.exports = {
                     {text: '第五篇', link: '/page/routing/r-05.md'},
                     {text: '第六篇', link: '/page/routing/r-06.md'},
                     {text: '第七篇', link: '/page/routing/r-07.md'},
+                    {text: '第八篇', link: '/page/routing/r-08.md'},
+                    {text: '第九篇', link: '/page/routing/r-09.md'},
                 ]
             },
         ],
@@ -39,6 +41,8 @@ module.exports = {
                         'r-05',
                         'r-06',
                         'r-07',
+                        'r-08',
+                        'r-09',
                     ]
                 }
             ] 
