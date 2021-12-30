@@ -17,6 +17,10 @@ module.exports = {
                     {text: '第一篇', link: '/page/routing/r-01.md'},
                     {text: '第二篇', link: '/page/routing/r-02.md'},
                     {text: '第三篇', link: '/page/routing/r-03.md'},
+                    {text: '第四篇', link: '/page/routing/r-04.md'},
+                    {text: '第五篇', link: '/page/routing/r-05.md'},
+                    {text: '第六篇', link: '/page/routing/r-06.md'},
+                    {text: '第七篇', link: '/page/routing/r-07.md'},
                 ]
             },
         ],
@@ -31,6 +35,10 @@ module.exports = {
                         'r-01',
                         'r-02',
                         'r-03',
+                        'r-04',
+                        'r-05',
+                        'r-06',
+                        'r-07',
                     ]
                 }
             ] 
