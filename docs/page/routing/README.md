@@ -4,7 +4,7 @@
 
 该目录下的所有文字版书，均出自B站 YJango 大神的视频原话，再次记录仅供方便学习记录。
 
-原视频详情：https://www.bilibili.com/video/BV1LU4y1g7no?spm_id_from=333.999.0.0
+原视频详情：<a href="https://www.bilibili.com/video/BV1LU4y1g7no?spm_id_from=333.999.0.0" target="_blank">https://www.bilibili.com/video/BV1LU4y1g7no?spm_id_from=333.999.0.0</a>
 
 ## 目的
 

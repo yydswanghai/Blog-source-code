@@ -1,8 +1,8 @@
 ---
 home: true # 默认主题
 # heroImage: /imgs/home.png # 
-heroText: Hero 标题
-tagline: Hero 副标题
+heroText: 断墨寻径文字版
+tagline: 学习如何学习
 actionText: 开始 →
 actionLink: /page/routing/
 features:
@@ -16,6 +16,6 @@ features:
   details: 归纳不足 | 以偏概全 | 可泛化性 | 有效范围
 - title: 验证
   details: 新例预测 | 表述转换
-footer: MIT Licensed | Copyright © 2021-present w
+footer: MIT Licensed | Copyright © 2021-present wanghai
 pageClass: custom-home-page # 自定义页面类
 ---
