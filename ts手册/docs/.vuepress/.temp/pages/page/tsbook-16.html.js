@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-2821d6d6\",\"path\":\"/page/tsbook-16.html\",\"title\":\"tsconfig常用配置 🏆\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"page/tsbook-16.md\"}")
