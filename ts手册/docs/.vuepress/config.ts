@@ -7,7 +7,7 @@ export default defineUserConfig({
     title: 'ts手册',
     description: '这是一个typescript小手册',
     head: [
-        ['link', { rel: 'icon', href: './public/svgs/site-icon.svg' }]
+        ['link', { rel: 'icon', href: '/svgs/site-icon.svg' }]
     ],
     alias: {
         '@svgs': path.resolve(__dirname, './public/svgs/'),
