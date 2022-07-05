@@ -1,0 +1,24 @@
+$primaryColor:#3eaf7c;
+.page-routing {
+    .page {
+        .theme-default-content{
+            & > p {
+                text-indent: 2em;
+            }
+            img {
+                position: relative;
+                left: -2rem;
+            }
+            i{
+                color: $primaryColor;
+                font-style: normal;
+                font-weight: bold;
+            }
+            .case {
+                padding: 1rem 1.5rem;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+        }
+    }
+}
