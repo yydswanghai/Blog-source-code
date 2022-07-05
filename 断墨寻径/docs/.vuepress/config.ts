@@ -7,7 +7,7 @@ export default defineUserConfig({
     title: 'Hello',
     description: '我的个人网站',
     head: [
-        ['link', { rel: 'icon', href: './public/svgs/site-icon.svg' }]
+        ['link', { rel: 'icon', href: '/svgs/site-icon.svg' }]
     ],
     alias: {
         '@svgs': path.resolve(__dirname, './public/svgs/'),
