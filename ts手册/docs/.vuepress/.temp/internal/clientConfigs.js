@@ -5,6 +5,7 @@ import clientConfig3 from '/Users/liangjiayin/Desktop/code/my_projects/code730-d
 import clientConfig4 from '/Users/liangjiayin/Desktop/code/my_projects/code730-document/ts手册/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import clientConfig5 from '/Users/liangjiayin/Desktop/code/my_projects/code730-document/ts手册/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import clientConfig6 from '/Users/liangjiayin/Desktop/code/my_projects/code730-document/ts手册/node_modules/@vuepress/theme-default/lib/client/config.js'
+import clientConfig7 from '/Users/liangjiayin/Desktop/code/my_projects/code730-document/ts手册/node_modules/@vuepress/plugin-search/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -14,4 +15,5 @@ export const clientConfigs = [
   clientConfig4,
   clientConfig5,
   clientConfig6,
+  clientConfig7,
 ]

@@ -1,0 +1,28 @@
+import{_ as n,o as s,c as a,a as e}from"./app.c3e187bd.js";const t={},p=e(`<h1 id="\u7C7B\u578B\u522B\u540D-type" tabindex="-1"><a class="header-anchor" href="#\u7C7B\u578B\u522B\u540D-type" aria-hidden="true">#</a> \u7C7B\u578B\u522B\u540D type \u{1F30E}</h1><p>\u5728\u4E00\u4E2A\u7CFB\u7EDF\u4E2D\uFF0C\u53EF\u80FD\u4F1A\u9047\u5230\u591A\u5904\u4F4D\u7F6E\u4F7F\u7528\u5230\u8FD9\u4E2A\u7528\u6237\u7684\u7C7B\u578B\uFF0C\u5982\u4E0B\uFF0C\u53D8\u91CF<code>user</code>\u548C\u51FD\u6570<code>getUsers</code>\u8FD4\u56DE\u503C</p><div class="language-typescript ext-ts line-numbers-mode"><pre class="language-typescript"><code><span class="token keyword">let</span> user<span class="token operator">:</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span>
+    age<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span>
+    gender<span class="token operator">:</span> <span class="token string">&quot;\u7537&quot;</span> \uFF5C <span class="token string">&quot;\u5973&quot;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">getUsers</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span>
+    age<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span>
+    gender<span class="token operator">:</span> <span class="token string">&quot;\u7537&quot;</span> \uFF5C <span class="token string">&quot;\u5973&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>\u628A\u8FD9\u4E2A\u7C7B\u578B\u63D0\u51FA\u6765\u5F62\u6210\u4E00\u4E2A\u540D\u79F0\uFF0C\u8FD9\u4E2A\u540D\u79F0\u5C31\u662F<strong>\u7C7B\u578B\u522B\u540D</strong> (\u5BF9\u5DF2\u77E5\u7684\u4E00\u4E9B\u7C7B\u578B\u5B9A\u4E49\u540D\u79F0)</p><div class="language-typescript ext-ts line-numbers-mode"><pre class="language-typescript"><code><span class="token keyword">type</span> <span class="token class-name">\u7C7B\u578B\u540D</span> <span class="token operator">=</span> <span class="token operator">...</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>\u7C7B\u578B\u522B\u540D\u91CC\u4E5F\u53EF\u4EE5\u4F7F\u7528\u5176\u4ED6\u7C7B\u578B\u522B\u540D</p><div class="language-typescript ext-ts line-numbers-mode"><pre class="language-typescript"><code><span class="token keyword">type</span> <span class="token class-name">Gender</span> <span class="token operator">=</span> <span class="token string">&quot;\u7537&quot;</span> \uFF5C <span class="token string">&quot;\u5973&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">type</span> <span class="token class-name">User</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span>
+    age<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span>
+    gender<span class="token operator">:</span> Gender
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> user<span class="token operator">:</span> User<span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">getUsers</span><span class="token punctuation">(</span>g<span class="token operator">:</span> Gender<span class="token punctuation">)</span><span class="token operator">:</span> User<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,7),o=[p];function c(i,l){return s(),a("div",null,o)}var u=n(t,[["render",c],["__file","tsbook-05.html.vue"]]);export{u as default};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-2821d6d6","path":"/page/tsbook-16.html","title":"tsconfig\u5E38\u7528\u914D\u7F6E \u{1F3C6}","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1657006497000,"contributors":[{"name":"wanghai","email":"2275981101@qq.com","commits":1}]},"filePathRelative":"page/tsbook-16.md"}');export{t as data};

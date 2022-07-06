@@ -1,5 +1,6 @@
 import { defineUserConfig, defaultTheme } from "vuepress"
-import { sidebar } from "./sidebar";
+import { sidebar } from "./sidebar"
+import { searchPlugin } from "@vuepress/plugin-search"
 
 export default defineUserConfig({
     lang: 'zh-CN',
@@ -19,5 +20,11 @@ export default defineUserConfig({
         tip: 'TIP',
         warning: '注意',
         danger: 'DANGER',
-    })
+    }),
+    plugins: [
+        searchPlugin({
+            maxSuggestions: 6,
+            hotKeys: ['s', '/'],
+        })
+    ]
 })
