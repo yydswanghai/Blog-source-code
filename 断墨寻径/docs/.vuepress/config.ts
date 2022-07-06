@@ -1,5 +1,4 @@
 import { defineUserConfig, defaultTheme } from "vuepress"
-import path from "path"
 import { sidebar } from "./sidebar";
 
 export default defineUserConfig({
@@ -9,10 +8,6 @@ export default defineUserConfig({
     head: [
         ['link', { rel: 'icon', href: '/svgs/site-icon.svg' }]
     ],
-    alias: {
-        '@svgs': path.resolve(__dirname, './public/svgs/'),
-        '@imgs': path.resolve(__dirname, './public/imgs/')
-    },
     theme: defaultTheme({
         colorModeSwitch: true,
         logo: '/imgs/logo.gif',
