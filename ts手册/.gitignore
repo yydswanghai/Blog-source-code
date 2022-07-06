@@ -14,3 +14,4 @@ lerna-debug.log*
 .vscode/*
 !.vscode/extensions.json
 .idea
+.vercel

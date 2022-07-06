@@ -15,3 +15,8 @@ vercel dev
 ```sh
 vercel --prod
 ```
+
+
+ts-manual
+yarn docs:build
+docs/.vuepress/dist
