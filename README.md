@@ -1,3 +1,5 @@
+## typescript 查阅手册
+
 1. 登录
 
 ```sh
@@ -16,7 +18,5 @@ vercel dev
 vercel --prod
 ```
 
-
-ts-manual
 yarn docs:build
 docs/.vuepress/dist
