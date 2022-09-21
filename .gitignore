@@ -1,7 +1,5 @@
 node_modules/
-docs/.vuepress/dist
-.cache/
-.temp/
+docs/dist
 
 # Logs
 logs

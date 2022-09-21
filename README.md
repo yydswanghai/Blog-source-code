@@ -18,5 +18,7 @@ vercel dev
 vercel --prod
 ```
 
-yarn docs:build
-docs/.vuepress/dist
+安装依赖 yarn install
+
+打包命令 yarn docs:build
+打包输出路径 docs/dist
