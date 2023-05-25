@@ -16,6 +16,7 @@
     "esModuleInterop": true,/* 启用es模块化交互非es模块导出，会影响编译结果 */
     "allowSyntheticDefaultImports": true,/* esModuleInterop配置开启后这个配置会自动的被开启，可以省略这个配置选项。不会影响到编译结果 */
     "strict": true,/* 是否经过严格的类型检查，所有方面 */
+    "noImplicitUseStrict": false,/* 编译器在生成 JavaScript 代码时是否在文件的顶部插入 "use strict" 语句。如果设置为 true，则编译器不会插入 "use strict" 语句，否则会插入该语句 */
     "strictPropertyInitialization": true,/* 更加严格的属性初始化检查 */
     "strictNullChecks": true,/* 更加严格的空类型检查，不能将null或undefined赋值给其他类型 */
     "forceConsistentCasingInFileNames": true,/* 是否不允许不一致的大小写引用 */
